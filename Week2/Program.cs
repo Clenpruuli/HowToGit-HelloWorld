@@ -18,14 +18,14 @@ namespace Week2
             string Name;
             Name = Console.ReadLine();
             Console.WriteLine("Hello, " + Name);
-            Console.WriteLine("what is your year of birth?");
+            Console.WriteLine("How old are you?");
             string Userinput;
             Userinput = Console.ReadLine();
             int YearOfBirth;
             //parsing string to interger (number)
             YearOfBirth = Int32.Parse(Userinput);
             int age = 2020 - YearOfBirth;
-            Console.WriteLine("You are " + age + "old");
+            Console.WriteLine("You are born in " + age +  "" );
             
 
 
